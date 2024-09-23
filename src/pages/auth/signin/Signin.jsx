@@ -54,7 +54,7 @@ const Signin = () => {
         {loading&&<Loadingpage/>}
         {!loading&&
             <div className='signin_page_container'>
-                <Navbar nav_bar="nav_bar" logo_clsname="signinpage_nav" site_name="logo_name" display="none" sign_in="sign_in_page_btn" sign_up="sign_up_btn_cls" />
+                <Navbar details="details_none" nav_bar="nav_bar" logo_clsname="signinpage_nav" site_name="logo_name" display="none" sign_in="sign_in_page_btn" sign_up="sign_up_btn_cls" />
                 <form onSubmit={handleSubmit} className='signin_form'>
                     <h1 className="sign_in_logo">Sign in</h1>
                     <Input type="email" ip_cls_name="email_input" onchange={email_input_submit} placeholder="Enter your email id"    />
