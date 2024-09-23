@@ -50,7 +50,6 @@ const Signin = () => {
 
   return (
     <div >
-        {error && (<p>Error:{error.message}</p>)}
         {loading&&<Loadingpage/>}
         {!loading&&
             <div className='signin_page_container'>
