@@ -49,7 +49,6 @@ const Signup = () => {
 
   return (
     <div className='signup_container'>
-      {loading&&<Loadingpage/>}
         <form className='signup_form_box' onSubmit={handleSubmit}>
             <h1 className="signup_logo">Sign up</h1>
             <Input ip_cls_name="signup_name" 
