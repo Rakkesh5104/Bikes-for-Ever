@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lilita+One&family=Pacifico&family=Rowdies:wght@300;400;700&family=Timmana&display=swap');
+
+
+
+@media screen and (min-width:1024px) and (max-width:2560px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .signin_page_container{
+        height: 100vh;
+        background-image: url(../../../assets/images/signin_page_bg.jpg);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .signin_form{
+        height:70% ;
+        width: 30%;
+        background-color: rgba(0, 0, 0, 0.4);
+        backdrop-filter: blur(2px);
+        box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.659);
+        margin-left: 15rem;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .sign_in_logo{
+        color: rgb(12, 95, 251);
+        filter: drop-shadow(2px 2px 2px rgba(159, 157, 160, 0.4));
+        font-family: "Rowdies", sans-serif;
+        font-size: 40px;
+        font-weight: 100;
+        margin-top: 20px;
+    }
+    .social_media{
+        height: 60px;
+        width: 70%;
+        margin-top: 50px;
+        margin-left: 60px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .google{
+        color: white;
+        font-size: 40px;
+    }
+    .facebook{
+        color: white;
+        font-size: 40px;
+    }
+    .insta{
+        color: white;
+        font-size: 38px;
+    }
+    .twitter{
+        color: white;
+        font-size: 35px;
+    }
+
+}

@@ -1,0 +1,67 @@
+
+.sign_in_btn_cls{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(31, 103, 237);
+    color: rgb(253, 253, 253);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+}
+.sign_in_btn_cls:hover{
+    background-color: rgb(35, 212, 239);
+}
+.sign_up_btn_cls{
+    height: 40px;
+    width: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(26, 24, 24, 0.9);
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 20px;
+    border: none;
+}
+.sign_up:hover{
+    background-color: rgb(120, 123, 130);
+}
+.signin_page_btn{
+    height: 40px;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 28%;
+    background-color: rgba(222, 227, 226, 0.418);
+    border: 0.5px solid black;
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+.signin_page_btn:hover{
+    background-color: rgba(81, 79, 79, 0.719);
+    color: rgb(208, 206, 206);
+}
+
+.sign_in_page_btn{
+    display: none;
+}
+.signup_submit{
+    height: 35px;
+    width: 150px;
+    margin-top: 30px;
+    background-color: rgb(246, 52, 22);
+    border: none;
+    color: rgb(187, 182, 182);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px rgba(132, 130, 130, 0.833);
+}
+.sign_in_none{
+    display: none;
+}
+.sign_up_none{
+    display: none;
+}

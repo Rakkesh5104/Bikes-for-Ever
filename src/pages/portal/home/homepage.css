@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home_page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.homepage_main{
+    background: linear-gradient(to left,rgb(66, 185, 240),rgb(216, 136, 74));
+    height: 100vh;
+}
+.success_page{
+    margin-top: 18rem;
+}
+.login_success{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(72, 16, 54);
+    filter: drop-shadow(1px 1px 3px rgb(232, 246, 28));
+    font-size: 45px;
+}

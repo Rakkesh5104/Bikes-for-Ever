@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Holtwood+One+SC&family=Lilita+One&family=Pacifico&family=Playwrite+HR+Lijeva:wght@100..400&family=Rowdies:wght@300;400;700&family=Timmana&display=swap');
+@media screen and (min-width:1024px) and (max-width:2560px) {
+
+.nav_bar{
+    width: 95% ;
+    height: 100px;
+    display: flex;
+    margin: 1.5% 5%;
+    justify-content: space-between;
+}
+.logo_classname{
+    height: 100px;
+    width: 110px;
+    margin-left: 80px;
+    /* background:linear-gradient(rgba(215, 238, 64, 0.87), rgba(255, 0, 0, 0.842));   */
+    filter: drop-shadow(2px 2px 3px rgb(138, 51, 94));
+    border-radius: 90%;  
+}
+.logo_name{
+    color: rgba(255, 255, 255, 0.803);
+    filter: drop-shadow(-5px 3px 3px rgba(23, 173, 232, 0.8));
+    font-size: 50px;
+    font-family: "Holtwood One SC", serif;
+    font-weight: 200;
+    margin-left:140px;
+}
+.logo_name:hover{
+    transition: 0.2s;
+    transform: skew(-20deg);
+}
+.sign_in_up{
+    width: 20%;
+    margin-right: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.signinpage_nav{
+    height: 100px;
+    width: 110px;
+    margin-left: 80px;
+    filter: drop-shadow(2px 2px 3px rgb(138, 51, 94));
+    border-radius: 90%; 
+}
+.homepage_nav_logo{
+    height: 100px;
+    width: 140px;
+    padding-left: 30px;
+}
+}
+
+/*honepage*/
+.home_nav_logo{
+    height: 80px;
+    width: 100px;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.home_navbar{
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.803);
+    display: flex;
+}
+.home_site_name{
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    filter: drop-shadow(1px 1px 2px rgb(30, 237, 234));
+    margin-top: 18px;
+    margin-left: 50px;
+}
+.details{
+    display: flex;
+}
+.details ul{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.details ul .details_link{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    filter: drop-shadow(1px 1px 1px rgb(12, 120, 227));
+}
+.details_none ul{
+    display: none;
+}

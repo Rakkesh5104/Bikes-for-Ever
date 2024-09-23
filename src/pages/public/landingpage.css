@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Lilita+One&family=Pacifico&family=Timmana&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media screen and (min-width:1024px) and (max-width:2560px) {
+    .landing_container{
+        background-image: url(../../assets/images/landing_bg.jpg);
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+.center_content{
+    width: 70%;
+    margin-left: 14rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.welcome{
+    color: rgb(215, 214, 212);
+    filter: drop-shadow(3px 3px 5px rgb(164, 4, 4));
+    font-weight: 100;
+    font-size: 60px;
+    letter-spacing: 4px;
+    margin-top: 6rem;
+    font-family: "Lilita One", sans-serif;
+   
+}
+.welcome:hover{
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+.guest_box{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+.guest_box_link{
+    text-decoration: none;
+}
+.guest_enter{
+    color: white;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    filter: drop-shadow(2px 2px 3px yellow);
+    cursor: pointer;
+}
+.arrow_symbol{
+    color: white;
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+    filter: drop-shadow(2px 2px 3px yellow);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.guest_box_link:hover~.arrow_symbol{
+    transform: translateX(30px);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+}
